@@ -1,15 +1,14 @@
-<h2 align="center">  
+<h2 align="center">
 
 <img width="2.5%" src=https://user-images.githubusercontent.com/111194226/196829941-5cc0486d-7e46-4327-8e0e-b90ed8c6401f.png /> Personare Frontend <img width="2.5%" src=https://user-images.githubusercontent.com/111194226/196829941-5cc0486d-7e46-4327-8e0e-b90ed8c6401f.png />
 
 </h2>
 
-<h4 align="justify"> 
+<h4 align="justify">
 
 Projeto desenvolvido para a criação de um jogo de Tarot online, com exibição visual das cartas. Após o clique no botão "Embaralhar" as cartas serão embaralhadas e distribuídas na tela, viradas para baixo, escondendo seu conteúdo e permitindo que o usuário escolha uma delas, a qual será revelada ao acaso uma mensagem dos astros. As tecnologias utilizadas foram: React, JavaScript, HTML, CSS, GIT e os dados fornecidos no challenge da [Personare](https://github.com/Personare/front-end-challenge).
 
 </h4>
-
 
 ### O que funciona
 
@@ -21,7 +20,7 @@ Projeto desenvolvido para a criação de um jogo de Tarot online, com exibição
 - A carta selecionada é apresentada com a imagem já mostrada no início do jogo, o nome e uma breve descrição
 - Loading ao embaralhar as cartas e Site responsivo
 
-### 🔗Link Surge  
+### 🔗Link Surge
 
 [Personare-Chalenge ](http://maripersonare.surge.sh)
 
@@ -29,11 +28,11 @@ Projeto desenvolvido para a criação de um jogo de Tarot online, com exibição
 
 Siga o passo-a-passo abaixo:
 
-| Passo                     | Comando            |
-| ------------------------- | ------------------ |
-| Faça o Clone              | `git clone`  deste repositório |
-| Instale as Dependências   | `npm install`  ou  ` yarn install` |
-| Utilize o Script NPM  | `npm run start`  ou  `npm run dev` |
+| Passo                   | Comando                          |
+| ----------------------- | -------------------------------- |
+| Faça o Clone            | `git clone` deste repositório    |
+| Instale as Dependências | `npm install` ou ` yarn install` |
+| Utilize o Script NPM    | `npm run start` ou `npm run dev` |
 
 Por padrão a aplicação rodará localmente na porta 3000.
 
@@ -61,6 +60,6 @@ Por padrão a aplicação rodará localmente na porta 3000.
 
 <table align="center">
   <tr>
-    </td> <td align="center"><a href="https://github.com/Mariandr4de"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/104591781?v=4" width="100px;" alt=""/><br /><sub><b>Mariana Andrade</b></sub></a> 
+    </td> <td align="center"><a href="https://www.linkedin.com/in/mariandr4de/"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/104591781?v=4" width="100px;" alt=""/><br /><sub><b>Mariana Andrade</b></sub></a> 
   </tr>
 </table>

@@ -1,9 +1,11 @@
 import React, { useContext } from "react";
 import { GlobalContext } from "../../Global/GlobalContext";
 import { CardSection, BorderCards, Cards } from "./styled";
-import { imageBackCard, imagesUrl } from "../../constants/urls";
+import { imagesUrl } from "../../constants/urls";
 import { Loading } from "../../components/Loader/Loader";
 import { cards } from "../../constants/cards";
+import CardBack from "../../assets/cardBack.png";
+
 import Swal from "sweetalert2";
 
 export const TarotCards = () => {
@@ -46,12 +48,10 @@ export const BackCards = () => {
 
   const allCardsBack = cards.map((card) => {
     return (
-        <Cards key={card.name} onClick={randomCards}>
+      <Cards key={card.name} onClick={randomCards}>
         {states.isLoading && <Loading />}
-        {!states.isLoading && (
-            <img src={`${imageBackCard}`} alt="back card" />
-            )}
-            </Cards>
+        {!states.isLoading && <img src={CardBack} alt="back card" />}
+      </Cards>
     );
   });
 

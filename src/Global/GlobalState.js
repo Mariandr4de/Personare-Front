@@ -19,14 +19,14 @@ export const GlobalState = (props) => {
     cardSide,
     userName,
     scrollY,
-    isLoading
+    isLoading,
   };
   const setters = {
     setTarot,
     setCardSide,
     setUserName,
     setScrollY,
-    setIsLoading
+    setIsLoading,
   };
 
   return (

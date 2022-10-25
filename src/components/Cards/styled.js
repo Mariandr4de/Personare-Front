@@ -31,5 +31,7 @@ export const Cards = styled.div`
   img {
     width: 12.5rem;
     height: 18.75rem;
+    border: 0.125rem solid #191970;
+    border-radius: 0.3125rem;
   }
 `;

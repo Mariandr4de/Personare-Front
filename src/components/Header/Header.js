@@ -15,7 +15,8 @@ export const Header = () => {
       <p>Olá, {userName}</p>
       <img src={Logo} alt="Logo Personare" />
       <button className="button" onClick={() => goToEntryPage(navigate)}>
-        <TiArrowBackOutline /> Sair do jogo
+        <TiArrowBackOutline />
+        Sair
       </button>
     </HeaderContainer>
   );

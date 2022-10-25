@@ -28,6 +28,5 @@ export const HeaderContainer = styled.div`
     text-align: center;
     background-color: transparent;
     color: #191970;
-    border: 0.0625rem solid #191970;
   }
 `;
