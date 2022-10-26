@@ -34,4 +34,9 @@ export const Cards = styled.div`
     border: 0.125rem solid #191970;
     border-radius: 0.3125rem;
   }
+  @media screen and (max-width: 480px) {
+    &:hover {
+      transform: none;
+    }
+  }
 `;

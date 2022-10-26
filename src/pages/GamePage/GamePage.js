@@ -12,7 +12,13 @@ export const GamePage = () => {
   const { states, setters } = useContext(GlobalContext);
 
   const flipCards = async () => {
+    setters.setIsLoading(true);
+
     await setters.setCardSide(!states.cardSide);
+
+    setTimeout(() => {
+      setters.setIsLoading(false);
+    }, 5000);
   };
 
   const goUp = async () => {
