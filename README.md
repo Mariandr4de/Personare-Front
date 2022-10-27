@@ -10,7 +10,7 @@ Projeto desenvolvido para a criação de um jogo de Tarot online, com exibição
 
 </h4>
 
-### O que funciona
+## ✔️O que funciona
 
 - Tela inicial solicitando um nome de usuário(como ele gostaria de ser chamado) para que o tratamento com o jogo seja mais pessoal
 - Tela de apresentação exibindo todas as cartas com seu conteúdo visível, e com um botão para iniciar o jogo
@@ -20,7 +20,7 @@ Projeto desenvolvido para a criação de um jogo de Tarot online, com exibição
 - A carta selecionada é apresentada com a imagem já mostrada no início do jogo, o nome e uma breve descrição
 - Loading ao embaralhar as cartas e Site responsivo
 
-### 🔗Link Surge
+## 🔗Link Surge
 
 [Personare-Chalenge ](http://maripersonare.surge.sh)
 
@@ -36,7 +36,7 @@ Siga o passo-a-passo abaixo:
 
 Por padrão a aplicação rodará localmente na porta 3000.
 
-### 📚Bibliotecas Utilizadas
+## 📚Bibliotecas Utilizadas
 
 - axios
 - material-ui
